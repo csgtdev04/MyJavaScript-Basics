@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <h1>HELLO</h1>
+        <h1 id="question">What's up?</h1>
+        <input type="text" id="inp"/>
+        <script type="text/javascript">
+            //basics
+            console.log("Hello World!"); //user doesn't see this (on console- F12)
+            document.write("<h1>Hello2</h1>"); //user sees this (on page)
+            console.warn("Warning"); //Warning shows up in console
+            console.error("This is an error!"); // Error shows up in console
+
+            //elements by id
+            document.getElementById("question").innerHTML = "The Sky!";
+            document.write(document.getElementById("question").innerHTML);
+            document.getElementById("inp").value = "hello";
+
+            //primitive types
+            var my_number = 6;
+            console.log(my_number);
+            var my_name = "Sai";
+            console.log(my_name);
+            console.log(my_name + my_number); //number turns into string
+
+            //operation, incrementing, decrementing, +=, -=, etc. same as JAVA
+             
+
+        </script>
+    </body>
+</html>
